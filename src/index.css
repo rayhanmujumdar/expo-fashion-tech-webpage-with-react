@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* custom font import */
+
+@layer base {
+  input {
+    @apply focus:outline-none
+  }
+  select {
+    padding: 10px;
+  padding-right: 30px;
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+    background-image: url('../src/assert/SVG/select-arrow-logo.svg');
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: 1em auto, 100%;
+  }
+  label {
+    @apply select-none
+  }
+}
+
+@font-face {
+  font-family: "my-font";
+  src: url("../src/american-typewriter/ufonts.com_american-typewriter.ttf");
+}
+
+
+@layer components {
+  .price-card {
+    @apply w-full max-w-md flex flex-col justify-center items-center py-5 uppercase border-gray-100;
+  }
+  .btn {
+    @apply bg-black text-gray-200 text-center py-1 rounded-md w-40;
+  }
+  .list-text-cap {
+    @apply capitalize;
+  }
+  .divider {
+    @apply border border-b-gray-300 w-28 my-10;
+  }
+  /* input section */
+  .input-container {
+    @apply w-full max-w-xs md:max-w-lg mx-auto
+  }
+  .input {
+    @apply border w-full h-20 pl-3 focus:placeholder:-translate-y-6 placeholder:text-xl border-y border-y-gray-500 border-x-gray-400 
+    focus:outline-none text-xl transition-all placeholder:delay-150 placeholder:duration-300
+  }
+  /* bill pay page */
+  .bill-input-container {
+    @apply flex justify-between align-bottom py-2
+  }
+  .bill-label {
+    @apply text-lg shrink w-56 font-medium
+  }
+  .bill-input {
+    @apply flex-1 border border-dotted border-b-black focus:outline-none
+  }
+  .bill-form{
+    @apply px-20 border-x-2 border-x-gray-500
+  }
+  .socialIcon {
+    @apply h-10 w-10 bg-[#DDDADB] rounded-full text-center !leading-10
+  }
+  /* product list page  */
+  .product-container{
+    @apply min-w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6
+  }
+  .product-card{
+    @apply max-h-full mx-auto md:mx-0 w-72 sm:w-full min-h-[500px] border border-black flex flex-col justify-between items-center relative
+  }
+  .product-tags{
+    @apply absolute right-3 top-1 z-30
+  }
+  .product-body {
+    @apply bg-red-400
+  }
+  .product-footer {
+    @apply border-t border-black min-w-full py-1
+  }
+  .product-footer-icon{
+    @apply h-6 w-6 mx-auto
+  }
+  .before-price-ranger{
+    @apply h-4 w-4 bg-black -translate-y-2/4 top-[50%] cursor-pointer bottom-2/4 absolute rounded-full
+  }
+  .after-price-ranger{
+    @apply h-4 w-4 bg-black -translate-y-2/4 -right-[16px] top-[50%] cursor-pointer bottom-2/4 absolute rounded-full
+  }
+  
+}
