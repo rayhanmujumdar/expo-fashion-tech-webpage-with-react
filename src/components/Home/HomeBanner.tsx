@@ -1,8 +1,8 @@
 import bannerImage from '../../assert/1x/home-banner.png'
-export default function Banner() {
+export default function HomeBanner() {
     return (
-        <section className="pb-20 pt-5">
+        <div className="pb-20 pt-5">
             <img src={bannerImage} alt="banner-img" />
-        </section>
+        </div>
     )
 }

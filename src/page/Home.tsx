@@ -1,5 +1,6 @@
+import Container from "../components/Container";
 import Footer from "../components/Footer";
-import Banner from "../components/Home/Banner";
+import HomeBanner from "../components/Home/HomeBanner";
 import Dress from "../components/Home/Dress";
 import DressCollection from "../components/Home/DressCollection";
 import Services from "../components/Home/Services";
@@ -8,16 +9,14 @@ import QuickMove from "../components/QuickMove";
 
 export default function Home() {
     return (
-        <div className="container mx-auto">
+        <Container>
             <Navbar />
-            <main>
-                <Banner />
-                <Services />
-                <Dress />
-                <DressCollection />
-            </main>
+            <HomeBanner />
+            <Services />
+            <Dress />
+            <DressCollection />
             <QuickMove />
             <Footer />
-        </div>
+        </Container>
     )
 }

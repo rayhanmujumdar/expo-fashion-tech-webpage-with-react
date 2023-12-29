@@ -1,11 +1,12 @@
 import patternImage from '../../assert/1x/pattern-image.png'
+import Title from '../../ui/Title'
 export default function PatternCollection() {
   return (
-    <section
+    <div
       className="grid grid-cols-2 items-start py-20 border-b border-gray-400"
     >
-      <h3 className="text-title">PATTERN</h3>
+      <Title>PATTERN</Title>
       <img src={patternImage} alt="3d image" />
-    </section>
+    </div>
   )
 }

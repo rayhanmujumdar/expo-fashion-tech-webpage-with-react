@@ -24,12 +24,12 @@ const servicesItems: TService[] = [
 
 export default function Services() {
     return (
-        <section
+        <div
             className="grid grid-cols-3 justify-between items-start gap-x-20 py-32 border-y border-gray-500 my-5"
         >
             {
                 servicesItems.map((service: TService) => <Service key={Math.random()} service={service} />)
             }
-        </section>
+        </div>
     )
 }
