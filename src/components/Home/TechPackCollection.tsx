@@ -2,12 +2,12 @@ import sampleImg from '../../assert/1x/Sample-image.png'
 import techPackImg from '../../assert/1x/tech-pack-image.png'
 import trimsImg from '../../assert/1x/trims-image.png'
 export default function TechPackCollection() {
-  
+
   return (
     <section className="grid grid-cols-3 py-20 border-b border-gray-400">
       <h3 className="text-title col-span-1">TECHPACK</h3>
-      <div className="grid grid-cols-[400px_auto] gap-x-20 mt-20 col-span-2">
-        <div className="flex flex-col justify-center items-center space-y-8">
+      <div className="grid grid-cols-5 gap-x-20 mt-20 col-span-2">
+        <div className="flex flex-col justify-center items-center space-y-8 col-span-2" >
           <div className="text-center">
             <p className="text-lg">Code</p>
             <span className="text-sm">WSS3-XFT-024</span>
@@ -36,10 +36,12 @@ export default function TechPackCollection() {
             <img src={sampleImg} alt="sample-image" />
           </div>
         </div>
-        <img
-          src={techPackImg}
-          alt="TechPack image"
-        />
+        <div className='col-span-3'>
+          <img
+            src={techPackImg}
+            alt="TechPack image"
+          />
+        </div>
       </div>
     </section>
   )
