@@ -1,4 +1,4 @@
-import Billing from "./page/Billing"
+import Billing from "./page/Order"
 import Home from "./page/Home"
 import Price from "./page/Price"
 import Products from "./page/Products"

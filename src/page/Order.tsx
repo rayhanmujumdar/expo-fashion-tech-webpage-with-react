@@ -4,7 +4,7 @@ import OrderSubmitForm from "../components/Billing/Form/OrderSubmitForm";
 import Container from "../components/Container";
 import Layout from "../components/Layout";
 
-export default function Billing() {
+export default function Order() {
     return (
         <Container>
             <Layout>
