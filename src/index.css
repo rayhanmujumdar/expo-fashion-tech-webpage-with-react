@@ -42,7 +42,7 @@
     @apply w-full max-w-md flex flex-col justify-center items-center py-5 uppercase border-gray-100;
   }
   .btn {
-    @apply bg-black text-gray-200 text-center py-1 rounded-md w-40;
+    @apply bg-black text-gray-100 text-center py-2 rounded-md w-52 my-5;
   }
   .list-text-cap {
     @apply capitalize;
@@ -50,7 +50,10 @@
   .divider {
     @apply border border-b-gray-300 w-28 my-10;
   }
-  /* input section */
+  /* form section */
+  .form{
+    @apply flex flex-col justify-center items-center border border-gray-700 w-full max-w-sm md:max-w-xl mx-auto 
+  }
   .input-container {
     @apply w-full max-w-xs md:max-w-lg mx-auto
   }
