@@ -3,10 +3,10 @@ import Title from '../../ui/Title'
 export default function ThreeDCollection() {
     return (
         <section
-            className="grid grid-cols-2 items-start justify-between py-20 border-b border-gray-400"
+            className="collection-layout"
         >
             <Title>3D</Title>
-            <img src={theeDImage} alt="3d image" />
+            <img src={theeDImage} alt="3d image" className='col-span-2 md:col-span-1' />
         </section>
     )
 }

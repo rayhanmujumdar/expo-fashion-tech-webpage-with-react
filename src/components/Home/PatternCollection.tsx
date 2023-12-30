@@ -3,7 +3,7 @@ import Title from '../../ui/Title'
 export default function PatternCollection() {
   return (
     <div
-      className="grid grid-cols-2 items-start py-20 border-b border-gray-400"
+      className="collection-layout grid-cols-1 md:grid-cols-2 gap-y-2"
     >
       <Title>PATTERN</Title>
       <img src={patternImage} alt="3d image" />

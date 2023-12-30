@@ -3,13 +3,13 @@ import Title from '../../ui/Title'
 export default function TwoDCollection() {
     return (
         <section
-            className="grid grid-cols-2 items-start justify-between py-20 border-b border-gray-400"
+            className="collection-layout"
         >
             <Title>2D</Title>
             <img
                 src={twoDImage}
                 alt="2d-image"
-                className="mx-auto"
+                className="mx-auto col-span-2 md:col-span-1"
             />
         </section>
     )

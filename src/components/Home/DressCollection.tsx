@@ -10,7 +10,7 @@ export default function DressCollection() {
         <>
             <div className="py-10">
                 <Title className="text-center">Like What You Get</Title>
-                <p className="text-7xl text-center">+</p>
+                <p className="text-5xl md:text-7xl text-center">+</p>
             </div>
             <div className="w-5/6 mx-auto">
                 <TwoDCollection />

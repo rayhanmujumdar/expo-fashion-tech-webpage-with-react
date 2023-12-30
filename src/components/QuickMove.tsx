@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function QuickMove() {
     return (
-        <div className="py-10 border-t border-black">
+        <div className="py-10 px-3 md:px-0 border-t border-black">
             <ul className="uppercase pb-10 space-y-1">
                 <li><a href="#"> ABOUT US </a></li>
                 <li><Link to="/pricing"> PRICING </Link></li>

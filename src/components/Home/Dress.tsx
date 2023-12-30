@@ -2,14 +2,14 @@ import dressImg from '../../assert/1x/dress.png'
 export default function Dress() {
     return (
         <section
-            className="flex justify-center items-center gap-x-4 bg-gray-100 h-full max-h-[300px] my-96"
+            className="flex flex-col md:flex-row justify-center items-center gap-x-4 md:bg-gray-100 h-full max-h-[300px] my-96"
         >
             <img
                 src={dressImg}
                 alt="dress image"
                 className="flex-shrink-0"
             />
-            <p className="p-5">
+            <p className="p-5 text-justify md:text-start">
                 EXPO FASHION TECH is one of the best platform where you can find all
                 design assets that meet to the street wear fashion. It may look
                 overwhelming at first glance as it’s so full featured, but that’s

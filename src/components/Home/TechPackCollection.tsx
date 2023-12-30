@@ -5,10 +5,12 @@ import Title from '../../ui/Title'
 export default function TechPackCollection() {
 
   return (
-    <section className="grid grid-cols-3 py-20 border-b border-gray-400">
-      <Title className="col-span-1">TECHPACK</Title>
-      <div className="grid grid-cols-5 gap-x-20 mt-20 col-span-2">
-        <div className="flex flex-col justify-center items-center space-y-8 col-span-2" >
+    <section className="grid grid-cols-1 md:grid-cols-3 py-20 border-b border-gray-400">
+      <Title className="col-span-1
+">TECHPACK</Title>
+      <div className="grid grid-cols-1 gap-y-10 md:gap-y-0 md:grid-cols-5 md:gap-x-20 md:mt-20 mt-10 md:col-span-2 justify-center
+">
+        <div className="flex flex-col justify-center items-center space-y-8 md:col-span-2" >
           <div className="text-center">
             <p className="text-lg">Code</p>
             <span className="text-sm">WSS3-XFT-024</span>
@@ -41,6 +43,7 @@ export default function TechPackCollection() {
           <img
             src={techPackImg}
             alt="TechPack image"
+            className='w-80 md:w-full mx-auto md:mx-0'
           />
         </div>
       </div>

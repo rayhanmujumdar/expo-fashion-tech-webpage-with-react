@@ -35,7 +35,7 @@ export default function PagePagination() {
     }
     return (
         <div className="py-4">
-            <ul className="flex space-x-2 justify-end">
+            <ul className="flex space-x-2 justify-center md:justify-end">
                 {page > 0 && (
                     <li onClick={handlePrevPage} className="cursor-pointer">
                         prev

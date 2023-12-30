@@ -25,7 +25,7 @@ export default function Navbar() {
             <div className="flex justify-between items-end py-3">
                 <div className="flex justify-center items-center gap-x-0.5 ml-4">
                     <Link to='/'>
-                        <img src={navLogo} alt="logo" className="w-52" />
+                        <img src={navLogo} alt="logo" className="w-40 md:w-52" />
                     </Link>
                 </div>
                 <ul className="md:flex gap-x-8 text-sm font-medium hidden">
