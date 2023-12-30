@@ -6,7 +6,7 @@
     "module": "ES2020",
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-
+    "allowSyntheticDefaultImports":true,
     /* Bundler mode */
     "moduleResolution": "Node",
     "allowImportingTsExtensions": true,

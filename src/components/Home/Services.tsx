@@ -1,7 +1,7 @@
 import customersServiceIcon_1 from '../../assert/SVG/service-icon-1.svg'
 import customersServiceIcon_2 from '../../assert/SVG/service-icon-2.svg'
 import customersServiceIcon_3 from '../../assert/SVG/service-icon-3.svg'
-import { TService } from '../../interface/services'
+import { TService } from '../../interface/home.interface'
 import Service from './Service'
 
 const servicesItems: TService[] = [

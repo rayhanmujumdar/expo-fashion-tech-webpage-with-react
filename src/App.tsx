@@ -1,13 +1,13 @@
 import Billing from "./page/Billing"
 import Home from "./page/Home"
+import Price from "./page/Price"
 
 function App() {
   return (
     <>
-      <div>
-        {/* <Home /> */}
-        <Billing />
-      </div>
+      {/* <Home /> */}
+      {/* <Billing /> */}
+      <Price />
     </>
   )
 }
