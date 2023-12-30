@@ -9,16 +9,17 @@ export default function PagePagination() {
     const [prevPage, setPrevPage] = useState(page - pageJump);
     const handleNextPage = (e: MouseEvent<HTMLLIElement>) => {
         const pageNumber = Number(e.currentTarget.innerText);
-        if (pageNumber + pageJump >= totalPage) {
+        if ((pageNumber + pageJump) >= totalPage) {
             setIsStopNextPage(true);
             setPage(totalPage - pageJump);
         } else {
+            setIsStopNextPage(false);
             setPrevPage(pageNumber);
             setPage(pageNumber);
         }
     };
     const handlePrevPage = () => {
-        if (prevPage - pageJump <= 0) {
+        if ((prevPage - pageJump) < 0) {
             setPage(0);
         } else {
             setIsStopNextPage(false);
@@ -26,15 +27,16 @@ export default function PagePagination() {
             setPrevPage(page - pageJump);
         }
     };
-
-    const handleLastPage = () => {
+    const handleLastPage = (e: MouseEvent<HTMLLIElement>) => {
+        const lastPage = Number(e.currentTarget.innerText)
         setIsStopNextPage(true);
         setPage(totalPage - pageJump);
+        setPrevPage(lastPage - pageJump)
     }
     return (
         <div className="py-4">
             <ul className="flex space-x-2 justify-end">
-                {page > 1 && (
+                {page > 0 && (
                     <li onClick={handlePrevPage} className="cursor-pointer">
                         prev
                     </li>
