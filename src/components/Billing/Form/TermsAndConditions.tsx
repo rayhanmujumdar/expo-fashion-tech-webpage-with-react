@@ -2,7 +2,7 @@ import { TProps } from "../../../interface/Props";
 
 export default function TermsAndConditions({ children }: TProps) {
     return (
-        <div className="flex justify-center items-start flex-col">
+        <div className="flex justify-center items-start flex-col mx-3 md:mx-0">
             <div className="space-y-2 text-lg my-5">
                 <p>
                     You will be billed every 30 calendar days unless your plan is

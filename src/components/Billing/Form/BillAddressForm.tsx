@@ -4,8 +4,8 @@ import BillLogInDirection from "../BillLogInDirection";
 
 export default function BillAddressForm({ children }: TProps) {
     return (
-        <div className="w-full min-w-fit">
-            <Title className="mt-20">BILLING ADDRESS</Title>
+        <div className="w-full min-w-full">
+            <Title className="mt-20 text-center md:text-left">BILLING ADDRESS</Title>
             <div className="w-full max-w-full">
                 <div className="flex-1">
                     <div className="flex justify-between items-start flex-wrap lg:flex-nowrap">

@@ -4,18 +4,18 @@ import BillLabel from "../BillLabel";
 
 export default function DetailsForm() {
     return (
-        <form className="bill-form my-10">
+        <div className="bill-form my-10">
             <BillInputContainer>
                 <BillLabel htmlFor="name">Full name*</BillLabel>
-                <BillInput id="name" />
+                <BillInput id="name" required />
             </BillInputContainer>
             <BillInputContainer>
                 <BillLabel htmlFor="Country">Country/Region*</BillLabel>
-                <BillInput id="Country" />
+                <BillInput id="Country" required />
             </BillInputContainer>
             <BillInputContainer>
                 <BillLabel htmlFor="Address">Address*</BillLabel>
-                <BillInput id="Address" />
+                <BillInput id="Address" required />
             </BillInputContainer>
             <BillInputContainer>
                 <BillLabel htmlFor="Address">Address(Optional)</BillLabel>
@@ -23,12 +23,12 @@ export default function DetailsForm() {
             </BillInputContainer>
             <BillInputContainer>
                 <BillLabel htmlFor="City">City*</BillLabel>
-                <BillInput type="text" id="City" />
+                <BillInput type="text" id="City" required />
             </BillInputContainer>
             <BillInputContainer>
                 <BillLabel htmlFor="portal">Zip/portal*</BillLabel>
-                <BillInput id="portal" />
+                <BillInput id="portal" required />
             </BillInputContainer>
-        </form>
+        </div>
     )
 }

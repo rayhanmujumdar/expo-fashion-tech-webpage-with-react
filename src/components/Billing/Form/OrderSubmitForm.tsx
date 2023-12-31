@@ -17,6 +17,6 @@ export default function OrderSubmitForm() {
                     <button type="submit" className="btn my-16">ORDER</button>
                 </div>
             </TermsAndConditions>
-        </form >
+        </form>
     )
 }
