@@ -1,7 +1,7 @@
-import Title from "../../ui/Title";
-import manImage from '../../assert/1x/man.png'
-import womanImage from '../../assert/1x/woman.png'
-import childImage from '../../assert/1x/child.png'
+import childImage from '../../assert/1x/child.png';
+import manImage from '../../assert/1x/man.png';
+import womanImage from '../../assert/1x/woman.png';
+import Title from "../ui/Title";
 export default function Banner() {
     return (
         <section className="py-20 flex flex-col justify-center items-center">

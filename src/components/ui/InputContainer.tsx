@@ -1,4 +1,4 @@
-import { TProps } from "../interface/Props";
+import { TProps } from "../../interface/Props";
 
 export default function InputContainer({ children }: TProps) {
     return (

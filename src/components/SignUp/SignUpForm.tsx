@@ -1,8 +1,8 @@
-import Button from "../../ui/Button";
-import Form from "../../ui/Form";
-import Input from "../../ui/Input";
-import InputContainer from "../../ui/InputContainer";
-import Title from "../../ui/Title";
+import Button from "../ui/Button";
+import Form from "../ui/Form";
+import Input from "../ui/Input";
+import InputContainer from "../ui/InputContainer";
+import Title from "../ui/Title";
 import CheckBox from "./CheckBox";
 
 export default function SignUpForm() {

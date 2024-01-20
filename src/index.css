@@ -83,10 +83,10 @@
   }
   /* product list page  */
   .product-container{
-    @apply min-w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6
+    @apply min-w-full col-span-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4  gap-4
   }
   .product-card{
-    @apply max-h-full mx-auto md:mx-0 w-72 sm:w-full min-h-[500px] border border-black flex flex-col justify-between items-center relative
+    @apply max-h-full mx-auto md:mx-0 sm:w-full w-32 h-60 bg-slate-100 flex flex-col justify-between items-center relative
   }
   .product-tags{
     @apply absolute right-3 top-1 z-30

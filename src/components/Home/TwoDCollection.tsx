@@ -1,5 +1,5 @@
 import twoDImage from '../../assert/1x/2d-image.png'
-import Title from '../../ui/Title'
+import Title from '../ui/Title'
 export default function TwoDCollection() {
     return (
         <section

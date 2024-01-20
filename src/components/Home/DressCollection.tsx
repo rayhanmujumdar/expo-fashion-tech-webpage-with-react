@@ -1,4 +1,4 @@
-import Title from "../../ui/Title";
+import Title from "../ui/Title";
 import GraphicsCollection from "./GraphicsCollection";
 import PatternCollection from "./PatternCollection";
 import TechPackCollection from "./TechPackCollection";

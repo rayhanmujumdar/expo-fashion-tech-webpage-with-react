@@ -1,5 +1,5 @@
 import theeDImage from '../../assert/1x/3d-image-1.png'
-import Title from '../../ui/Title'
+import Title from '../ui/Title'
 export default function ThreeDCollection() {
     return (
         <section

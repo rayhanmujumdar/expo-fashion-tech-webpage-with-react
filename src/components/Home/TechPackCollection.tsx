@@ -1,7 +1,7 @@
 import sampleImg from '../../assert/1x/Sample-image.png'
 import techPackImg from '../../assert/1x/tech-pack-image.png'
 import trimsImg from '../../assert/1x/trims-image.png'
-import Title from '../../ui/Title'
+import Title from '../ui/Title'
 export default function TechPackCollection() {
 
   return (

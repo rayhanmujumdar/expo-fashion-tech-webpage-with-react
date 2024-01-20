@@ -1,5 +1,5 @@
 import { FormHTMLAttributes } from "react";
-import { TProps } from "../interface/Props";
+import { TProps } from "../../interface/Props";
 
 export default function Form({ className, children, ...props }: TProps & FormHTMLAttributes<HTMLFormElement>) {
     return (

@@ -1,5 +1,5 @@
-import Input from "../../../ui/Input";
-import InputContainer from "../../../ui/InputContainer";
+import Input from "../../ui/Input";
+import InputContainer from "../../ui/InputContainer";
 
 export default function PaymentForm() {
     return (

@@ -1,4 +1,4 @@
-import Title from "../../ui/Title";
+import Title from "../ui/Title";
 import OrderBillTable from "./OrderBillTable/OrderBillTable";
 
 export default function OrderBill() {

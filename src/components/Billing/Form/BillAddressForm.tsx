@@ -1,5 +1,5 @@
 import { TProps } from "../../../interface/Props";
-import Title from "../../../ui/Title";
+import Title from "../../ui/Title";
 import BillLogInDirection from "../BillLogInDirection";
 
 export default function BillAddressForm({ children }: TProps) {

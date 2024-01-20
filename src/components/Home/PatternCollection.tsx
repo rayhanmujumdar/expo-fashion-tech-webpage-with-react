@@ -1,5 +1,5 @@
 import patternImage from '../../assert/1x/pattern-image.png'
-import Title from '../../ui/Title'
+import Title from '../ui/Title'
 export default function PatternCollection() {
   return (
     <div

@@ -1,5 +1,5 @@
 import { ButtonHTMLAttributes } from "react";
-import { TProps } from "../interface/Props";
+import { TProps } from "../../interface/Props";
 
 export default function Button({ className, children, ...props }: ButtonHTMLAttributes<HTMLButtonElement> & TProps) {
     return (

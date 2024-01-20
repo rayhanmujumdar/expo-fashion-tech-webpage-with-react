@@ -1,6 +1,6 @@
 import graphicsImg_1 from '../../assert/1x/graphics-image-1.png'
 import graphicsImg_2 from '../../assert/1x/graphics-image-2.png'
-import Title from '../../ui/Title'
+import Title from '../ui/Title'
 export default function GraphicsCollection() {
     return (
         <section className="grid gap-y-2 md:gap-y-0 md:grid-cols-3 py-20">
