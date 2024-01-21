@@ -7,9 +7,9 @@ import ProductItems from "../components/Product/ProductItems";
 import ProductLayout from "../components/Product/ProductLayout";
 import ProductMenuItem from "../components/Product/ProductMenuItem";
 import ProductMenubar from "../components/Product/ProductMenubar";
-import QuickMove from "../components/QuickMove";
 import Label from "../components/ui/Label";
 import Quote from "../components/ui/Quote";
+import Subscribe from "../components/ui/Subscribe";
 
 export default function Products() {
     return (
@@ -65,7 +65,7 @@ export default function Products() {
                         <PagePagination />
                     </section>
                 </main>
-                <QuickMove />
+                <Subscribe />
             </Layout>
         </Container>
     );
